@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@200&family=Open+Sans:wght@300&display=swap');
+
+:root {
+    --primercolor: #8ca8fd;
+    --segundocolor: #C2D1FF;
+    --tercercolor: #444444;
+    --cuartocolor: #E5EFFF;
+    --quintocolor: #333333;
+}
+
+.encabezado {
+ 
+    z-index: 1000; 
+  }
+  
+  main {
+    margin-top: 60px; 
+    padding: 20px; 
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(140,168,253,1) 100%);
+  }
+  
+  
+  .encabezado {
+      display: flex;
+      justify-content: space-between;
+      background-color: var(--segundocolor);
+      align-items: center;
+      padding: 5px;
+      width: 100%;
+      position: fixed;
+      top: 0;
+  }
+  
+  .nav-link {
+      padding: 5px;
+      font-size: 16px;
+      width: max-content;
+      margin: 0 10px;
+      text-transform: uppercase;
+      text-decoration: none;
+      color: var(--cuartocolor);
+  }
+  
+  .nav-link:hover {
+      background-color: var(--segundocolor);
+      transition: 1s;
+  }
+  
+  .head img {
+      height: 50px;
+      padding: 0 40px;
+  }
+
+  .footer {
+    padding: 5px;
+    width: 100%;
+    height: 80px;
+    background-color: var(--quintocolor);
+    position: fixed;
+    bottom: 0;
+  
+}
+
+.foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bott img {
+    height: 50px;
+    padding: 0 40px;
+    margin: 8px auto;
+}
+
+.redsocial {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.redsocial a {
+    color: var(--segundocolor);
+    font-size: 24px;
+    margin-right: 20px;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.redsocial a:hover {
+    background-color: var(--segundocolor);
+    transition: 1s;
+    color: var(--cuartocolor);
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(140,168,253,1) 100%);    margin: 0;
+    padding: 0;
+}
+
+.login-container {
+    background-color: #fff;
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    
+}
+
+.login-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    text-align: left;
+    margin-bottom: 15px;
+    margin-right: 15px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+
+.exito {
+    color: green;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+
+
+
+
+
+/* Estilos para el botón "Volver al Inicio" */
+#volverInicio {
+text-align: center;
+width: 260px;
+}
